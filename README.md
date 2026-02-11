@@ -377,7 +377,7 @@
                             </div>
                             <div>
                                 <h3 class="text-emerald-300 text-xs font-bold uppercase tracking-wider">Email</h3>
-                                <p class="text-xl font-bold">foxglovemanorafh@gmail.com</p>
+                                <p class="text-xl font-bold"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="680e07100f04071e0d050906071a090e00280f05090104460b0705">[email&#160;protected]</a></p>
                             </div>
                         </div>
                         <div class="flex items-center gap-6">
@@ -442,7 +442,7 @@
         </div>
     </footer>
 
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // Initialize Lucide Icons
         lucide.createIcons();
 
@@ -474,12 +474,4 @@
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
-        });
-    </script>
-</body>
-</html>
+                c
